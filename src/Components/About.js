@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackgroundImage from "../Assets/image2.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
@@ -15,21 +15,16 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+        Know Before It Shows: Early Insights into Your Health
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Our model leverages advanced machine learning algorithms to deliver accurate and timely disease diagnoses. Designed for both medical professionals and patients, it simplifies the diagnostic process, offering reliable insights based on vast datasets and clinical expertise.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        By integrating cutting-edge technology with healthcare, our model aims to enhance patient care and improve health outcomes globally.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
-          </button>
+          <button className="secondary-button">See Accuracy</button>
         </div>
       </div>
     </div>
